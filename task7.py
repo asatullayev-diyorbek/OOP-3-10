@@ -24,9 +24,9 @@ class SmartTv(Tv):
 
     def turn_off(self):
         if not self.status:
-            print("Smart TV avvalroq o'chirilgan")
+            print("SmartTV avvalroq o'chirilgan")
         else:
-            print("Smart TV o'chirildi.")
+            print("SmartTV o'chirildi.")
             self.status = False
 
 
